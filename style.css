@@ -1,0 +1,137 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    background-color: rgb(44, 42, 42);
+}
+
+header{
+    background-image: url(images/header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    height: 200px;
+    margin-top: 25px;
+}
+
+header H1{
+    margin-top: 0;
+    font-size: 64px;
+    font-family: cursive ;
+    text-shadow: Grey 5px 0 10px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+  
+li{
+    float: left;
+}
+  
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: #4b4b4b;
+}
+
+section{
+height: 100vh;
+padding: 0 clamp(4rem, 12vm, 20rem);
+display: grid;
+place-content: center;
+    p{
+        font-size: clamp(2rem, 4vw, 6rem);
+    }
+&:nth-of-type(1){
+    background-color: rgb(50, 50, 50);
+}
+&:nth-of-type(2){
+    background-color: rgb(60,60,60);
+}
+&:nth-of-type(3){
+    background-color: rgb(70,70,70);
+}
+&:nth-of-type(4){
+    background-color: rgb(80,80,80);
+}  
+
+
+}
+.spacing{
+    background-color: rgb(50,50,50);
+    height: 300px;
+    width: 100%;
+    font-family: "Brush Script MT", cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.spacing H2{
+    margin: 0px;
+    font-size: 32px;
+    margin-left: 16px;
+}
+img{
+    height: 48px;
+}
+
+a img{
+    height: 300px;
+    width: 100%;
+    border-style: inset;
+    border-color: black;
+    border-radius: 10%;
+}
+#bc_vs_lubeck{
+    height: 240px;
+    width: auto;
+    border-style: inset;
+    border-color: white;
+    border-radius: 5%;
+}
+#bc_vs_lubeck_pt2{
+    height: 240px;
+    width: auto;
+    border-style: inset;
+    border-color: white;
+    border-radius: 5%;
+}
+.anchor{
+    display: block;
+    height: 0px;
+    margin-top: 0px;
+    visibility: hidden;
+}
+.flexblock_center{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer{
+    background-color: rgb(0, 0, 0);
+    font-style: oblique;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 24px;
+}
